@@ -1,0 +1,21 @@
+{
+    "name": "Darker YouTube",
+    "version": "1.0",
+    "description": "YouTube Darkmode is now even darker",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "css": ["youtube.css"],
+        "run_at": "document_start"
+      }
+    ], 
+    "browser_action": {
+      "default_icon": {
+        "128": "assets/logo-128.png"
+      }
+    },
+    "icons": {
+      "128": "assets/logo-128.png"
+    }
+}
