@@ -1,0 +1,14 @@
+
+body {
+    background-color: black !important;
+}
+
+
+*:not(button) {
+    color: white !important;
+}
+
+
+img[alt=YouTube] {
+    filter: invert(100%) hue-rotate(180deg) saturate(100) !important;
+}

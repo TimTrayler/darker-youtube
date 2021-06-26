@@ -12,7 +12,7 @@
 
     --yt-spec-10-percent-layer: rgba(150, 150, 150, 0.1);
 
-    --yt-spec-badge-chip-background: rgba(0, 0, 0, 0) !important;
+    --yt-spec-badge-chip-background: rgb(15, 15, 15)!important;
 
     --ytd-searchbox-border-color: rgba(5, 5, 5, 0.02) !important;
     --ytd-searchbox-background: rgba(0, 0, 0, 7) !important;

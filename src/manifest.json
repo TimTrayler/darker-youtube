@@ -8,6 +8,19 @@
         "matches": ["*://*.youtube.com/*"],
         "css": ["youtube.css"],
         "run_at": "document_start"
+      },
+      {
+        "matches": ["*://consent.youtube.com/m?*"],
+        "css": ["consent/main.css"],
+        "run_at": "document_start"
+      },
+      {
+        "matches": ["*://consent.youtube.com/d?*"],
+        "css": [
+          "consent/main.css",
+          "consent/advanced.css"
+        ],
+        "run_at": "document_start"
       }
     ], 
     "browser_action": {
