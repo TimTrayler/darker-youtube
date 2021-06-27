@@ -1,5 +1,6 @@
 # Darker YouTube Darkmode
 
+# Supported Browsers: Firefox and any chromium-based browsers (Chrome, Edge, Opera etc.)
 # [Download](https://github.com/TimTrayler/darker-youtube/releases/latest/download/darker-youtube.crx)
 
 # Installation
