@@ -7,6 +7,9 @@
 # Installation
 Just drag & drop the crx file into the extensions page to install the extension
 
+# Installation on Firefox
+Go to about:debugging#/runtime/this-firefox, click load temporary addon and select src/manifest.json.
+
 # Installation on Edge
 To install this extension on Edge you'll first need to enable developer mode in the extensions page and then drag & drop the crx file
 
