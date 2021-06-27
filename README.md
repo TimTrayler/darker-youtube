@@ -14,7 +14,7 @@ Go to about:debugging#/runtime/this-firefox, click load temporary addon and sele
 To install this extension on Edge you'll first need to enable developer mode in the extensions page and then drag & drop the crx file
 
 # Contributers
-[Futud](https://github.com/Futud): [Changed manifest.json to work in Firefox](https://github.com/TimTrayler/darker-youtube/commit/06d512465413af23fe99104d6f60b4d1489f5661)
+[Futuy (@Futud)](https://github.com/Futud): [Changed manifest.json to work in Firefox](https://github.com/TimTrayler/darker-youtube/commit/06d512465413af23fe99104d6f60b4d1489f5661)
 
 # Images
 <img alt="Cookie Consent Page" src="https://user-images.githubusercontent.com/67274738/123523275-eb067300-d6c2-11eb-8f6a-1494b2dd7970.png" width="75%">
