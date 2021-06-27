@@ -14,9 +14,8 @@
 
     --yt-spec-badge-chip-background: rgb(15, 15, 15)!important;
 
-    --ytd-searchbox-border-color: rgba(5, 5, 5, 0.02) !important;
     --ytd-searchbox-background: rgba(0, 0, 0, 7) !important;
 
-    --ytd-searchbox-legacy-button-border-color: #303030 !important;
-    --ytd-searchbox-legacy-button-color: rgba(0, 0, 0, 1) !important;
+    --ytd-searchbox-legacy-button-border-color: #4d4d4d !important;
+    --ytd-searchbox-legacy-button-color: #000 !important;
 }
