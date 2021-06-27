@@ -22,12 +22,7 @@
         ],
         "run_at": "document_start"
       }
-    ], 
-    "browser_action": {
-      "default_icon": {
-        "128": "assets/logo-128.png"
-      }
-    },
+    ],
     "icons": {
       "128": "assets/logo-128.png"
     }
