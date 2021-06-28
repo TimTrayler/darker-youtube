@@ -1,16 +1,17 @@
 # Darker YouTube Darkmode
 
-# [Download](https://github.com/TimTrayler/darker-youtube/releases/latest/download/darker-youtube.crx)
+# [Mozilla Addon Page](https://addons.mozilla.org/de/firefox/addon/darker-youtube/)
+# [Download CRX](https://github.com/TimTrayler/darker-youtube/releases/latest/download/darker-youtube.crx)
 ## Supported Browsers: Firefox and any chromium-based browsers (Chrome, Edge, Opera etc.)
 
 
-# Installation
+# CRX Installation
 Just drag & drop the crx file into the extensions page to install the extension
 
-# Installation on Firefox
+# CRX Installation on Firefox
 Go to about:debugging#/runtime/this-firefox, click load temporary addon and select src/manifest.json.
 
-# Installation on Edge
+# CRX Installation on Edge
 To install this extension on Edge you'll first need to enable developer mode in the extensions page and then drag & drop the crx file
 
 # Contributers
