@@ -1,6 +1,6 @@
 # Darker YouTube Darkmode
 
-# <a target="_blank" rel="norefferer" _href="https://addons.mozilla.org/de/firefox/addon/twitch-points-chest-collector/"><img style="filter: opacity(0.2)" alt="Get it on Mozilla" width="15%" src="https://user-images.githubusercontent.com/67274738/123635245-bfe36700-d81b-11eb-8119-cb28a56c6ae8.png"></a>
+# <a target="_blank" rel="norefferer" _href="https://addons.mozilla.org/de/firefox/addon/twitch-points-chest-collector/"><img style="filter: alpha(opacity=0.4);opacity:0.4" alt="Get it on Mozilla" width="15%" src="https://user-images.githubusercontent.com/67274738/123635245-bfe36700-d81b-11eb-8119-cb28a56c6ae8.png"></a>
 # [Download CRX](https://github.com/TimTrayler/darker-youtube/releases/latest/download/darker-youtube.crx)
 
 
