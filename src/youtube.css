@@ -19,3 +19,7 @@
     --ytd-searchbox-legacy-button-border-color: #4d4d4d !important;
     --ytd-searchbox-legacy-button-color: #000 !important;
 }
+
+.ytp-settings-menu, .ytp-popup {
+    background-color: #000000cc !important;
+}
