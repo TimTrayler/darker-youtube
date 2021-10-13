@@ -1,0 +1,7 @@
+
+[dark] * {
+    --yt-spec-brand-button-background: var(--theme-accent-color) !important;
+
+    
+    --yt-button-icon-button-text-color: #FFF !important;
+}

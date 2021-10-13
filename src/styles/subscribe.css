@@ -1,0 +1,6 @@
+
+tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {
+    background-color: transparent !important;
+    border: 1px solid rgb(10, 10, 10) !important;
+    border-radius: 10px !important;
+}

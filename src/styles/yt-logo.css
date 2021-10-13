@@ -1,0 +1,5 @@
+/*
+[dark] #logo-icon > svg > g > g:not([id]) > path.yt-icon:first-child {
+    fill: var(--theme-accent-color) !important;
+}
+*/

@@ -10,5 +10,6 @@ body {
 
 
 img[alt=YouTube] {
+    /* Invert black to white text */
     filter: invert(100%) hue-rotate(180deg) saturate(100) !important;
 }

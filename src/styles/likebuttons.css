@@ -1,0 +1,14 @@
+
+ytd-toggle-button-renderer.style-default-active yt-icon-button > button > yt-icon > svg path,
+yt-formatted-string.style-default-active {
+    fill: var(--theme-accent-color) !important;
+    color: var(--theme-accent-color) !important;
+}
+
+#container.ytd-sentiment-bar-renderer {
+    background-color: #FFFFFF !important;
+}
+
+#like-bar {
+    background-color: var(--theme-accent-color) !important;
+}

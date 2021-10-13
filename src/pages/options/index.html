@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Darker YouTube</title>
+
+    <style>
+        * {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    
+    <script src="/lib/hexToHSL.min.js"></script>
+    <script src="./index.js" defer></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Settings</h1>
+    
+    <h2>Theme Color</h2>
+    <input type="color" id="themeColor"><br/>
+    <div class="is-compatible" hidden><br/><h3>Text might be hard to read on this color!</h3></div>
+
+    <h3>Recommended Colors</h3>
+    <div class="grid" id="similarColors">
+        <div class="similarColor sC-1"></div>
+        <div class="similarColor sC-2"></div>
+        <div class="similarColor sC-3"></div>
+        <div class="similarColor sC-4"></div>
+        <div class="similarColor sC-5"></div>
+        <div class="similarColor sC-6"></div>
+        <div class="similarColor sC-7"></div>
+        <div class="similarColor sC-8"></div>
+    </div>
+
+    <br/></br>
+    <button id="save">Save</button>
+</body>
+</html>

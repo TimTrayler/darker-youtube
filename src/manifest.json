@@ -1,29 +1,81 @@
 {
     "name": "Darker YouTube",
-    "version": "2.1",
+    "version": "3.0.0",
     "description": "YouTube Darkmode is now even darker",
+    "icons": {
+      "128": "assets/logo-128.png"
+    },
+
     "manifest_version": 2,
+
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/*"],
-        "css": ["youtube.css"],
+        "css": [
+          "./styles/backgrounds.css",
+          "./styles/buttons.css",
+          "./styles/chips.css",
+          "./styles/colors.css",
+          "./styles/fonts.css",
+          "./styles/icons.css",
+          "./styles/likebuttons.css",
+          "./styles/navbar.css",
+          "./styles/popups.css",
+          "./styles/progressbar.css",
+          "./styles/scrollbar.css",
+          "./styles/searchbox.css",
+          "./styles/subscribe.css",
+          "./styles/text.css",
+          "./styles/theme.css",
+          "./styles/togglebutton.css",
+          "./styles/yt-logo.css"
+        ],
+        "js": [
+          "./scripts/livechatInjection.js",
+          "./scripts/accentColor.js"
+        ],
+        "run_at": "document_end"
+      },
+      {
+        "matches": ["*://music.youtube.com/*"],
+        "css": [
+          "./styles/music/titlebar.css",
+          "./styles/music/backgrounds.css",
+          "./styles/music/theme.css",
+          "./styles/music/badges.css",
+          "./styles/music/searchbox.css",
+          "./styles/music/tabs.css",
+          "./styles/music/songItem.css",
+          "./styles/music/icons.css",
+          "./styles/music/settings.css"
+        ],
         "run_at": "document_start"
       },
       {
         "matches": ["*://consent.youtube.com/m?*"],
-        "css": ["consent/main.css"],
+        "css": ["./styles/consent/main.css"],
         "run_at": "document_start"
       },
       {
         "matches": ["*://consent.youtube.com/d?*"],
         "css": [
-          "consent/main.css",
-          "consent/advanced.css"
+          "./styles/consent/main.css",
+          "./styles/consent/advanced_consent.css"
         ],
         "run_at": "document_start"
       }
     ],
-    "icons": {
-      "128": "assets/logo-128.png"
-    }
+
+    "browser_action": {
+      "default_icon": "./assets/logo-128.png",
+      "default_popup": "./pages/popup/index.html"
+    },
+
+    "options_page": "./pages/options/index.html",
+
+    "permissions": [
+      "tabs",
+      "storage",
+      "*://*.youtube.com/*"
+    ]
 }

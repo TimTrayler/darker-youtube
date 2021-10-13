@@ -1,0 +1,5 @@
+
+[dark] ytmusic-responsive-list-item-renderer[play-button-state=loading], ytmusic-responsive-list-item-renderer[play-button-state=playing], ytmusic-responsive-list-item-renderer[play-button-state=paused] {
+    background-color: #ffffff05 !important;
+    border-radius: 2vw;
+}

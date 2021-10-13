@@ -1,0 +1,11 @@
+
+#progress-bar, .ytmusic-player-bar {
+    --paper-slider-active-color: var(--theme-accent-color) !important;
+}
+
+.slider-knob-inner {
+    border: var(--theme-accent-color) !important;
+    background-color: var(--theme-accent-color) !important;
+
+    filter: saturate(200%);
+}

@@ -1,0 +1,8 @@
+
+[dark] * {
+    --yt-spec-icon-disabled: #333 !important;
+    --yt-spec-icon-inactive: #FFFFFF !important;
+    
+    --yt-spec-brand-icon-active: var(--theme-accent-color) !important;
+    --yt-spec-brand-icon-inactive: #FFFFFF !important;
+}

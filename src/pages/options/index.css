@@ -1,0 +1,88 @@
+
+* {
+    font-family: 'Product Sans', 'YouTube Sans', 'Roboto', 'Helvetica Neue', 'Oxygen', 'Droid Sans', 'Arial', sans-serif;
+}
+
+body {
+    margin-left: 2vw;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+button {
+    background-color: var(--accent-color);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    filter: brightness(95%);
+}
+
+button:active {
+    filter: brightness(90%);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.similarColor {
+    display: block;
+    padding: 30px;
+
+    border: 2.5px solid white;
+
+    --accent-color-saturation: 50%;
+    --accent-color-lightness: 50%;
+}
+
+.sC-1 {
+    background-color: hsl(0deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.sC-2 {
+    background-color: hsl(30deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.sC-3 {
+    background-color: hsl(55deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.sC-4 {
+    background-color: hsl(110deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.sC-5 {
+    background-color: hsl(180deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.sC-6 {
+    background-color: hsl(240deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.sC-7 {
+    background-color: hsl(270deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.sC-8 {
+    background-color: hsl(300deg, var(--accent-color-saturation), var(--accent-color-lightness));
+}
+
+.is-compatible * {
+    color: red;
+}

@@ -1,0 +1,11 @@
+
+/* Enabled Toggled Bar */
+tp-yt-paper-toggle-button[checked]:not([disabled]) > * > .tp-yt-paper-toggle-bar {
+    background-color: var(--theme-accent-color) !important;
+    opacity: var(--paper-toggle-button-checked-bar_-_opacity, 0.5);
+}
+
+/* Enabled Toggled Button */
+tp-yt-paper-toggle-button[checked]:not([disabled]) > * > .tp-yt-paper-toggle-button {
+    background-color: var(--theme-accent-color) !important;
+}

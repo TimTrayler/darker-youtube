@@ -1,0 +1,8 @@
+
+:not(.next-items-button) > tp-yt-iron-icon {
+    color: #fff !important;
+}
+
+tp-yt-paper-icon-button[aria-pressed="true"] svg path {
+    fill: var(--theme-accent-color);
+}

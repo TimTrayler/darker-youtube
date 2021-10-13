@@ -1,0 +1,16 @@
+
+[dark] ::-webkit-scrollbar {
+    width: .8vw !important;
+}
+
+[dark] ::-webkit-scrollbar-track {
+    background: var(--yt-spec-brand-background-solid) !important;
+}
+
+[dark] ::-webkit-scrollbar-thumb {
+    background: var(--theme-accent-color) !important;
+}
+
+[dark] ::-webkit-scrollbar-thumb:hover {
+    filter: brightness(.4);
+}

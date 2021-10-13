@@ -1,0 +1,13 @@
+
+#suggestion-list * {
+    color: #fff;
+    fill: #fff;
+}
+
+#clear svg {
+    fill: #fff;
+}
+
+#clear:hover svg {
+    fill: var(--theme-accent-color);
+}
