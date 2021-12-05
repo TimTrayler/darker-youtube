@@ -1,7 +1,19 @@
 
 [dark] * {
-    --ytd-searchbox-background: rgba(0, 0, 0, 7) !important;
+    --ytd-searchbox-background: rgb(0, 0, 0) !important;
 
     --ytd-searchbox-legacy-button-border-color: #4d4d4d !important;
     --ytd-searchbox-legacy-button-color: #000 !important;
+
+    --ytd-searchbox-border-radius: 5px !important;
+}
+
+[dark] ytd-searchbox > #search-form #container {
+    border-bottom-left-radius: var(--ytd-searchbox-border-radius) !important;
+    border-top-left-radius: var(--ytd-searchbox-border-radius) !important;
+}
+
+[dark] ytd-searchbox > #search-icon-legacy {
+    border-bottom-right-radius: var(--ytd-searchbox-border-radius) !important;
+    border-top-right-radius: var(--ytd-searchbox-border-radius) !important;
 }

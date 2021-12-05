@@ -5,10 +5,12 @@ yt-formatted-string.style-default-active {
     color: var(--theme-accent-color) !important;
 }
 
-#container.ytd-sentiment-bar-renderer {
+#container.ytd-sentiment-bar-renderer,
+#return-youtube-dislike-bar-container {
     background-color: #FFFFFF !important;
 }
 
-#like-bar {
+#like-bar,
+#return-youtube-dislike-bar {
     background-color: var(--theme-accent-color) !important;
 }
