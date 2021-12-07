@@ -14,3 +14,7 @@ yt-formatted-string.style-default-active {
 #return-youtube-dislike-bar {
     background-color: var(--theme-accent-color) !important;
 }
+
+[dark] tp-yt-paper-item[aria-selected="true"] > yt-formatted-string {
+    color: var(--theme-accent-color) !important;
+}

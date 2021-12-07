@@ -8,9 +8,3 @@
 
     --yt-spec-call-to-action: var(--theme-accent-color) !important;
 }
-
-
-/*  Like Button  */
-[dark] tp-yt-paper-item[aria-selected="true"] > yt-formatted-string {
-    color: var(--theme-accent-color) !important;
-}
