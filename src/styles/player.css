@@ -1,6 +1,6 @@
 
-video,
+div:not(.ytp-big-mode) > div > video,
 #thumbnail > img,
 #player {
-    border-radius: 20px;
+    border-radius: 17px;
 }
