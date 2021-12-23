@@ -30,6 +30,7 @@
           "./styles/theme.css",
           "./styles/thumbnails.css",
           "./styles/togglebutton.css",
+          "./styles/topbar.css",
           "./styles/yt-logo.css"
         ],
         "js": [
