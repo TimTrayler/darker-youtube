@@ -44,7 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
 document.querySelector("#save").addEventListener("click", function() {
     let accentColor = document.querySelector("#themeColor").value;
 
-    updateThemeColor(accentColor, () => alert("Done!"))
+    updateThemeColor(accentColor, () => {
+        console.log("Updated theme color to " + accentColor)
+        alert("Done!")
+    })
 })
 
 document.querySelectorAll(".similarColor").forEach(e => {
@@ -55,7 +58,7 @@ document.querySelectorAll(".similarColor").forEach(e => {
         color = color.join("").split(", ")
         color = "#" + color.map(x => parseInt(x).toString(16)).join("")
 
-        alert(color);
+        console.info(color)
 
         document.querySelector("#themeColor").value = color
         updateThemeColor(color)
