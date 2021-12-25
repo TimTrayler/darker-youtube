@@ -23,6 +23,7 @@
           "./styles/navbar.css",
           "./styles/player.css",
           "./styles/popups.css",
+          "./styles/progressbar.css",
           "./styles/scrollbar.css",
           "./styles/searchbox.css",
           "./styles/subscribe.css",

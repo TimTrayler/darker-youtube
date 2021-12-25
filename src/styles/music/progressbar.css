@@ -3,6 +3,15 @@
     --paper-slider-active-color: var(--theme-accent-color) !important;
 }
 
+#progressContainer.tp-yt-paper-progress {
+    background-color: #ffffff !important;
+}
+
+#secondaryProgress.tp-yt-paper-progress {
+    background-color: var(--theme-accent-color) !important;
+    filter: brightness(99%) saturate(0.5) !important;
+}
+
 .slider-knob-inner {
     border: var(--theme-accent-color) !important;
     background-color: var(--theme-accent-color) !important;
