@@ -47,3 +47,12 @@ html:not([dark=false]) ytmusic-popup-container * {
 [dark=false] ytmusic-popup-container * {
     background-color: white !important;
 }
+
+
+html[dark=true] ytmusic-player-bar {
+    background-color: black !important;
+}
+
+html[dark=false] ytmusic-player-bar {
+    background-color: white !important;
+}
