@@ -4,14 +4,14 @@
 }
 
 [dark=true] * {
-    --ytd-searchbox-background: rgb(black) !important;
+    --ytd-searchbox-background: black !important;
 
     --ytd-searchbox-legacy-button-border-color: #4d4d4d !important;
     --ytd-searchbox-legacy-button-color: black !important;
 }
 
 html[dark=false] * {
-    --ytd-searchbox-background: rgb(black) !important;
+    --ytd-searchbox-background: black !important;
 
     --ytd-searchbox-legacy-button-border-color: #4d4d4d !important;
     --ytd-searchbox-legacy-button-color: black !important;
