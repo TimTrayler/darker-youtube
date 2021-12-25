@@ -4,7 +4,7 @@
 }
 
 
-html:not([dark=false]) #progressContainer.tp-yt-paper-progress {
+html[dark=true] #progressContainer.tp-yt-paper-progress {
     background-color: white !important;
 }
 

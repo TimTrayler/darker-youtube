@@ -1,5 +1,5 @@
 
-html:not([dark=false]) * {
+html[dark=true] * {
     --ytmusic-brand-background-solid: #020202 !important;
     --ytmusic-general-background-c: black !important;
     --on-ytmusic-background: white !important;
@@ -31,7 +31,7 @@ html:not([dark=false]) * {
 }
 
 
-html:not([dark=false]) button.ytmusic-navigation-button-renderer {
+html[dark=true] button.ytmusic-navigation-button-renderer {
     background-color: #050505 !important;
 }
 
@@ -40,7 +40,7 @@ html:not([dark=false]) button.ytmusic-navigation-button-renderer {
 }
 
 
-html:not([dark=false]) ytmusic-popup-container * {
+html[dark=true] ytmusic-popup-container * {
     background-color: black !important;
 }
 

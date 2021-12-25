@@ -1,5 +1,5 @@
 
-html:not([dark=false]) ytmusic-pivot-bar-item-renderer {
+html[dark=true] ytmusic-pivot-bar-item-renderer {
     color: white;
 
     font-weight: bold !important;
@@ -18,7 +18,7 @@ ytmusic-pivot-bar-item-renderer.iron-selected {
 }
 
 
-html:not([dark=false]) .search-icon svg path {
+html[dark=true] .search-icon svg path {
     fill: white !important;
 }
 
@@ -34,7 +34,7 @@ ytmusic-search-box:hover span {
 }
 
 
-html:not([dark=false]) :not(ytmusic-search-box:hover) > div > div > #placeholder.ytmusic-search-box {
+html[dark=true] :not(ytmusic-search-box:hover) > div > div > #placeholder.ytmusic-search-box {
     color: white;
 }
 

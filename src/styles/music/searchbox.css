@@ -1,5 +1,5 @@
 
-html:not([dark=false]) #suggestion-list * {
+html[dark=true] #suggestion-list * {
     color: white;
     fill: white;
 }
@@ -10,7 +10,7 @@ html:not([dark=false]) #suggestion-list * {
 }
 
 
-html:not([dark=false]) #clear svg {
+html[dark=true] #clear svg {
     fill: white;
 }
 

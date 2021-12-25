@@ -1,5 +1,5 @@
 
-html:not([dark=false]) ytmusic-settings-page * {
+html[dark=true] ytmusic-settings-page * {
     background-color: black !important;
 }
 

@@ -1,5 +1,5 @@
 
-html:not([dark=false]) * {
+html[dark=true] * {
     --ytmusic-color-badge: #020202;
 }
 

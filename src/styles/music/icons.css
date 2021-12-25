@@ -1,10 +1,23 @@
 
-html:not([dark=false]) :not(.next-items-button) > tp-yt-iron-icon {
+html[dark=true] :not(.next-items-button) > tp-yt-iron-icon {
     color: white !important;
 }
 
 [dark=false] :not(.next-items-button) > tp-yt-iron-icon {
     color: black !important;
+}
+
+
+/* FIXME: "Your channel" + "Paid membership" icons are filled */
+
+[dark=false] yt-icon svg > g > path:last-child,
+[dark=false] tp-yt-iron-icon svg > g > path:last-child {
+    fill: black !important;
+}
+
+[dark=true] yt-icon svg > g > path:last-child,
+[dark=true] tp-yt-iron-icon svg > g > path:last-child:not {
+    fill: white !important;
 }
 
 
