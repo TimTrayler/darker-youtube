@@ -1,8 +1,8 @@
 
-#masthead, ytmusic-nav-bar {
+[dark] #masthead, ytmusic-nav-bar {
     background-color: rgba(0, 0, 0, 0.85) !important;
 }
 
-#voice-search-button {
+[dark] #voice-search-button {
     background-color: transparent !important;
 }

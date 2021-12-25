@@ -1,12 +1,12 @@
 
-* {
+[dark] * {
     --ytmusic-brand-background-solid: #020202 !important;
 }
 
-button.ytmusic-navigation-button-renderer {
+[dark] button.ytmusic-navigation-button-renderer {
     background-color: #050505 !important;
 }
 
-ytmusic-popup-container * {
+[dark] ytmusic-popup-container * {
     background-color: #000000 !important;
 }

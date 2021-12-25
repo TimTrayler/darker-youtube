@@ -1,29 +1,29 @@
 
-ytmusic-pivot-bar-item-renderer {
+[dark] ytmusic-pivot-bar-item-renderer {
     color: #FFF !important;
 
     font-weight: bold !important;
 }
 
-ytmusic-pivot-bar-item-renderer:hover,
-ytmusic-pivot-bar-item-renderer.iron-selected {
+[dark] ytmusic-pivot-bar-item-renderer:hover,
+[dark] ytmusic-pivot-bar-item-renderer.iron-selected {
     color: var(--theme-accent-color) !important;
 }
 
-.search-icon svg path {
+[dark] .search-icon svg path {
     fill: #FFFFFF !important;
 }
 
-ytmusic-search-box:hover svg path,
-ytmusic-search-box:hover span {
+[dark] ytmusic-search-box:hover svg path,
+[dark] ytmusic-search-box:hover span {
     fill: var(--theme-accent-color) !important;
     color: var(--theme-accent-color) !important;
 }
 
-:not(ytmusic-search-box:hover) > div > div > #placeholder.ytmusic-search-box {
+[dark] :not(ytmusic-search-box:hover) > div > div > #placeholder.ytmusic-search-box {
     color: #FFF;
 }
 
-#placeholder.ytmusic-search-box {
+[dark] #placeholder.ytmusic-search-box {
     font-weight: bold !important;
 }

@@ -1,9 +1,9 @@
 
-tp-yt-paper-button.ytd-subscribe-button-renderer:not([subscribed]) {
+[dark] tp-yt-paper-button.ytd-subscribe-button-renderer:not([subscribed]) {
     border-radius: 9999vw;
 }
 
-tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {
+[dark] tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {
     background-color: transparent !important;
     border: 1px solid rgb(10, 10, 10) !important;
     border-radius: 15px !important;
