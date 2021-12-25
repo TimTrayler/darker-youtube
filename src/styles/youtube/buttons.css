@@ -1,0 +1,12 @@
+
+[dark=true] * {
+    --yt-spec-brand-button-background: var(--theme-accent-color) !important;
+    
+    --yt-button-icon-button-text-color: white !important;
+}
+
+html[dark=false] * {
+    --yt-spec-brand-button-background: var(--theme-accent-color) !important;
+    
+    --yt-button-icon-button-text-color: black !important;
+}

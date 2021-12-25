@@ -12,27 +12,27 @@
       {
         "matches": ["*://*.youtube.com/*"],
         "css": [
-          "./styles/backgrounds.css",
-          "./styles/buttons.css",
-          "./styles/chips.css",
-          "./styles/colors.css",
-          "./styles/country-code.css",
-          "./styles/fonts.css",
-          "./styles/icons.css",
-          "./styles/likebuttons.css",
-          "./styles/navbar.css",
-          "./styles/player.css",
-          "./styles/popups.css",
-          "./styles/progressbar.css",
-          "./styles/scrollbar.css",
-          "./styles/searchbox.css",
-          "./styles/subscribe.css",
-          "./styles/text.css",
-          "./styles/theme.css",
-          "./styles/thumbnails.css",
-          "./styles/togglebutton.css",
-          "./styles/topbar.css",
-          "./styles/yt-logo.css"
+          "./styles/youtube/backgrounds.css",
+          "./styles/youtube/buttons.css",
+          "./styles/youtube/chips.css",
+          "./styles/youtube/colors.css",
+          "./styles/youtube/country-code.css",
+          "./styles/youtube/fonts.css",
+          "./styles/youtube/icons.css",
+          "./styles/youtube/likebuttons.css",
+          "./styles/youtube/navbar.css",
+          "./styles/youtube/player.css",
+          "./styles/youtube/popups.css",
+          "./styles/youtube/progressbar.css",
+          "./styles/youtube/scrollbar.css",
+          "./styles/youtube/searchbox.css",
+          "./styles/youtube/subscribe.css",
+          "./styles/youtube/text.css",
+          "./styles/youtube/theme.css",
+          "./styles/youtube/thumbnails.css",
+          "./styles/youtube/togglebutton.css",
+          "./styles/youtube/topbar.css",
+          "./styles/youtube/yt-logo.css"
         ],
         "js": [
           "./scripts/livechatInjection.js",
@@ -56,6 +56,13 @@
           "./styles/music/settings.css"
         ],
         "run_at": "document_start"
+      },
+      {
+        "matches": ["*://music.youtube.com/*"],
+        "js": [
+          "./scripts/ytMusicTheme.js"
+        ],
+        "run_at": "document_end"
       },
       {
         "matches": ["*://consent.youtube.com/m?*"],

@@ -1,0 +1,8 @@
+
+#logo-icon > svg > g > g:not([id]) > path.yt-icon:first-child {
+    fill: var(--theme-accent-color) !important;
+}
+
+[dark=false] .logo {
+    filter: invert(100%) hue-rotate(180deg) saturate(100) !important;
+}

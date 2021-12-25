@@ -1,25 +1,37 @@
 
-[dark] #tabs .tab.selected.ytmusic-tabs {
+#tabs .tab.selected.ytmusic-tabs {
     border-bottom-color: var(--theme-accent-color) !important;
     color: var(--theme-accent-color) !important;
 }
 
-[dark] #tabs .tab.ytmusic-tabs {
-    color: #fff;
+
+html:not([dark=false]) #tabs .tab.ytmusic-tabs {
+    color: white;
 }
 
-[dark] #tabs .tab.ytmusic-tabs:hover {
+[dark=false] #tabs .tab.ytmusic-tabs {
+    color: black;
+}
+
+
+#tabs .tab.ytmusic-tabs:hover {
     color: var(--theme-accent-color) !important;
 }
 
-[dark] .tab-header {
-    color: #fff;
+
+html:not([dark=false]) .tab-header {
+    color: white;
 }
 
-[dark] .tab-header:hover, [dark] .tab-header.iron-selected {
+[dark=false] .tab-header {
+    color: black;
+}
+
+
+.tab-header:hover, html:not([dark=false]) .tab-header.iron-selected {
     color: var(--theme-accent-color) !important;
 }
 
-[dark] #selectionBar {
+#selectionBar {
     border-color: var(--theme-accent-color) !important;
 }

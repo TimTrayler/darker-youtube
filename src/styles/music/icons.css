@@ -1,8 +1,13 @@
 
-[dark] :not(.next-items-button) > tp-yt-iron-icon {
-    color: #fff !important;
+html:not([dark=false]) :not(.next-items-button) > tp-yt-iron-icon {
+    color: white !important;
 }
 
-[dark] tp-yt-paper-icon-button[aria-pressed="true"] svg path {
+[dark=false] :not(.next-items-button) > tp-yt-iron-icon {
+    color: black !important;
+}
+
+
+tp-yt-paper-icon-button[aria-pressed="true"] svg path {
     fill: var(--theme-accent-color);
 }

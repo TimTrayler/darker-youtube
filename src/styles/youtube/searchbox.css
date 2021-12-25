@@ -1,0 +1,28 @@
+
+* {
+    --ytd-searchbox-border-radius: 5px !important;
+}
+
+[dark=true] * {
+    --ytd-searchbox-background: rgb(black) !important;
+
+    --ytd-searchbox-legacy-button-border-color: #4d4d4d !important;
+    --ytd-searchbox-legacy-button-color: black !important;
+}
+
+html[dark=false] * {
+    --ytd-searchbox-background: rgb(black) !important;
+
+    --ytd-searchbox-legacy-button-border-color: #4d4d4d !important;
+    --ytd-searchbox-legacy-button-color: black !important;
+}
+
+ytd-searchbox > #search-form #container {
+    border-bottom-left-radius: var(--ytd-searchbox-border-radius) !important;
+    border-top-left-radius: var(--ytd-searchbox-border-radius) !important;
+}
+
+ytd-searchbox > #search-icon-legacy {
+    border-bottom-right-radius: var(--ytd-searchbox-border-radius) !important;
+    border-top-right-radius: var(--ytd-searchbox-border-radius) !important;
+}

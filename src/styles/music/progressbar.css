@@ -1,18 +1,25 @@
 
-[dark] #progress-bar, .ytmusic-player-bar {
+#progress-bar, .ytmusic-player-bar {
     --paper-slider-active-color: var(--theme-accent-color) !important;
 }
 
-[dark] #progressContainer.tp-yt-paper-progress {
-    background-color: #ffffff !important;
+
+html:not([dark=false]) #progressContainer.tp-yt-paper-progress {
+    background-color: white !important;
 }
 
-[dark] #secondaryProgress.tp-yt-paper-progress {
+[dark=false] #progressContainer.tp-yt-paper-progress {
+    background-color: black !important;
+}
+
+
+#secondaryProgress.tp-yt-paper-progress {
     background-color: var(--theme-accent-color) !important;
     filter: brightness(99%) saturate(0.5) !important;
 }
 
-[dark] .slider-knob-inner {
+
+.slider-knob-inner {
     border: var(--theme-accent-color) !important;
     background-color: var(--theme-accent-color) !important;
 

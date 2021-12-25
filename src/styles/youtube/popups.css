@@ -1,0 +1,8 @@
+
+[dark=true] .ytp-settings-menu, [dark=true] .ytp-popup {
+    background-color: black !important;
+}
+
+html[dark=false] .ytp-settings-menu, html[dark=false] .ytp-popup {
+    background-color: white !important;
+}

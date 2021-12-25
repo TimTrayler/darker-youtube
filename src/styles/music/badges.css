@@ -1,4 +1,8 @@
 
-[dark] * {
+html:not([dark=false]) * {
     --ytmusic-color-badge: #020202;
+}
+
+[dark=false] {
+    --ytmusic-color-badge: #d0d0d0;
 }

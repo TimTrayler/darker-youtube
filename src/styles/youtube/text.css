@@ -1,0 +1,8 @@
+
+[dark=true] * {
+    --yt-spec-text-secondary: #999 !important;
+}
+
+html[dark=false] * {
+    --yt-spec-text-secondary: #666 !important;
+}

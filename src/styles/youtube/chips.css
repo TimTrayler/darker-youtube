@@ -1,0 +1,10 @@
+
+[dark=true] * {
+    --yt-spec-badge-chip-background: black !important;    
+    --yt-spec-button-chip-background-hover: rgba(white, 0.075) !important;
+}
+
+html[dark=false] * {
+    --yt-spec-badge-chip-background: white !important;    
+    --yt-spec-button-chip-background-hover: rgba(black, 0.075) !important;
+}

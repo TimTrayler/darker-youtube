@@ -1,29 +1,48 @@
 
-[dark] ytmusic-pivot-bar-item-renderer {
-    color: #FFF !important;
+html:not([dark=false]) ytmusic-pivot-bar-item-renderer {
+    color: white;
 
     font-weight: bold !important;
 }
 
-[dark] ytmusic-pivot-bar-item-renderer:hover,
-[dark] ytmusic-pivot-bar-item-renderer.iron-selected {
+[dark=false] ytmusic-pivot-bar-item-renderer {
+    color: black;
+
+    font-weight: bold !important;
+}
+
+
+ytmusic-pivot-bar-item-renderer:hover,
+ytmusic-pivot-bar-item-renderer.iron-selected {
     color: var(--theme-accent-color) !important;
 }
 
-[dark] .search-icon svg path {
-    fill: #FFFFFF !important;
+
+html:not([dark=false]) .search-icon svg path {
+    fill: white !important;
 }
 
-[dark] ytmusic-search-box:hover svg path,
-[dark] ytmusic-search-box:hover span {
+[dark=false] .search-icon svg path {
+    fill: black !important;
+}
+
+
+ytmusic-search-box:hover svg path,
+ytmusic-search-box:hover span {
     fill: var(--theme-accent-color) !important;
     color: var(--theme-accent-color) !important;
 }
 
-[dark] :not(ytmusic-search-box:hover) > div > div > #placeholder.ytmusic-search-box {
-    color: #FFF;
+
+html:not([dark=false]) :not(ytmusic-search-box:hover) > div > div > #placeholder.ytmusic-search-box {
+    color: white;
 }
 
-[dark] #placeholder.ytmusic-search-box {
+[dark=false] :not(ytmusic-search-box:hover) > div > div > #placeholder.ytmusic-search-box {
+    color: black;
+}
+
+
+#placeholder.ytmusic-search-box {
     font-weight: bold !important;
 }

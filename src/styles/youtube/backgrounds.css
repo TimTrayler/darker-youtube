@@ -1,0 +1,20 @@
+
+[dark=true] *, html[dark=true] {
+    --yt-spec-brand-background-solid: black !important;
+    --yt-spec-brand-background-primary: black !important;
+    --yt-spec-brand-background-secondary: black !important;
+    
+    --yt-spec-general-background-a: black !important;
+    --yt-spec-general-background-b: black !important;
+    --yt-spec-general-background-c: black !important;
+}
+
+html[dark=false] *, html[dark=false] {
+    --yt-spec-brand-background-solid: white !important;
+    --yt-spec-brand-background-primary: white !important;
+    --yt-spec-brand-background-secondary: white !important;
+    
+    --yt-spec-general-background-a: white !important;
+    --yt-spec-general-background-b: white !important;
+    --yt-spec-general-background-c: white !important;
+}

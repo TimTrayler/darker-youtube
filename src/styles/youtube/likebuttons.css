@@ -1,0 +1,25 @@
+
+ytd-toggle-button-renderer.style-default-active yt-icon-button > button > yt-icon > svg path,
+yt-formatted-string.style-default-active {
+    fill: var(--theme-accent-color) !important;
+    color: var(--theme-accent-color) !important;
+}
+
+[dark=true] #container.ytd-sentiment-bar-renderer,
+[dark=true] #ryd-bar-container {
+    background-color: white !important;
+}
+
+html[dark=false] #container.ytd-sentiment-bar-renderer,
+html[dark=false] #ryd-bar-container {
+    background-color: black !important;
+}
+
+#like-bar,
+#ryd-bar {
+    background-color: var(--theme-accent-color) !important;
+}
+
+tp-yt-paper-item[aria-selected="true"] > yt-formatted-string {
+    color: var(--theme-accent-color) !important;
+}

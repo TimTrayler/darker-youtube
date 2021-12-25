@@ -1,4 +1,8 @@
 
-[dark] ytmusic-settings-page * {
-    background-color: #000 !important;
+html:not([dark=false]) ytmusic-settings-page * {
+    background-color: black !important;
+}
+
+[dark=false] ytmusic-settings-page * {
+    background-color: white !important;
 }

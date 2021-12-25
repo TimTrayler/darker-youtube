@@ -1,0 +1,31 @@
+
+/* Enabled Toggled Bar */
+tp-yt-paper-toggle-button[checked]:not([disabled]) > * > .tp-yt-paper-toggle-bar {
+    background-color: var(--theme-accent-color) !important;
+    opacity: var(--paper-toggle-button-checked-bar_-_opacity, 0.5);
+}
+
+/* Enabled Toggled Button */
+tp-yt-paper-toggle-button[checked]:not([disabled]) > * > .tp-yt-paper-toggle-button {
+    background-color: var(--theme-accent-color) !important;
+}
+
+
+[dark=true] tp-yt-paper-toggle-button:not([checked]):not([disabled]) > * > .tp-yt-paper-toggle-bar {
+    background-color: #3f3f3f !important;
+    opacity: var(--paper-toggle-button-checked-bar_-_opacity, 0.5);
+}
+
+[dark=false] tp-yt-paper-toggle-button:not([checked]):not([disabled]) > * > .tp-yt-paper-toggle-bar {
+    background-color: #a7a7a7 !important;
+    opacity: var(--paper-toggle-button-checked-bar_-_opacity, 0.5);
+}
+
+
+[dark=false] tp-yt-paper-toggle-button:not([checked]):not([disabled]) > * > .tp-yt-paper-toggle-button {
+    background-color: #a7a7a7 !important;
+}
+
+[dark=true] tp-yt-paper-toggle-button:not([checked]):not([disabled]) > * > .tp-yt-paper-toggle-button {
+    background-color: #3f3f3f !important;
+}

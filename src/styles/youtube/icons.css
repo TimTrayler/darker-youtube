@@ -1,0 +1,16 @@
+
+[dark=true] * {
+    --yt-spec-icon-disabled: #333 !important;
+    --yt-spec-icon-inactive: white !important;
+    
+    --yt-spec-brand-icon-active: var(--theme-accent-color) !important;
+    --yt-spec-brand-icon-inactive: white !important;
+}
+
+html[dark=false] * {
+    --yt-spec-icon-disabled: #777 !important;
+    --yt-spec-icon-inactive: black !important;
+    
+    --yt-spec-brand-icon-active: var(--theme-accent-color) !important;
+    --yt-spec-brand-icon-inactive: black !important;
+}

@@ -1,0 +1,8 @@
+
+[dark=true] * {
+    --yt-spec-10-percent-layer: rgba(150, 150, 150, 0.075) !important;
+}
+
+html[dark=false] * {
+    --yt-spec-10-percent-layer: rgba(30, 30, 30, 0.075) !important;
+}

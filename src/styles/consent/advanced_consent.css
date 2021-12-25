@@ -1,4 +1,6 @@
 
-.Usd1Ac {
-    background-color: black !important;
+@media (prefers-color-scheme: dark) {
+    .Usd1Ac {
+        background-color: black !important;
+    }
 }

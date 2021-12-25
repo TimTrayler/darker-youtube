@@ -1,0 +1,31 @@
+
+:root {
+    --navbar-transparency: 0.85;
+}
+
+
+[dark=true] #masthead,
+[dark=true] ytmusic-nav-bar {
+    background-color: rgba(0, 0, 0, var(--navbar-transparency)) !important;
+}
+
+html[dark=false] #masthead,
+html[dark=false] ytmusic-nav-bar,
+html[dark=false] #nav-bar-background {
+    background-color: rgba(255, 255, 255, var(--navbar-transparency)) !important;
+}
+
+
+[dark=true] nav-bar-divider {
+    opacity: 0;
+}
+
+[dark=false] nav-bar-divider {
+    background-color: rgba(255, 255, 255, var(--navbar-transparency)) !important;
+    border-top-color: rgba(255, 255, 255, 0.05);
+}
+
+
+#voice-search-button {
+    background-color: transparent !important;
+}

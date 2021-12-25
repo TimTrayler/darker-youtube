@@ -1,15 +1,17 @@
 
-body {
-    background-color: black !important;
-}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black !important;
+    }
 
 
-*:not(button) {
-    color: white !important;
-}
+    *:not(button) {
+        color: white !important;
+    }
 
 
-img[alt=YouTube] {
-    /* Invert black to white text */
-    filter: invert(100%) hue-rotate(180deg) saturate(100) !important;
+    img[alt=YouTube] {
+        /* Invert black to white text */
+        filter: invert(100%) hue-rotate(180deg) saturate(100) !important;
+    }
 }

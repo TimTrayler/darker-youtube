@@ -1,4 +1,4 @@
 
-[dark] * {
+* {
     --yt-spec-selected-nav-text: var(--theme-accent-color) !important;
 }

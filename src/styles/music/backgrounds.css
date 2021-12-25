@@ -1,12 +1,49 @@
 
-[dark] * {
+html:not([dark=false]) * {
     --ytmusic-brand-background-solid: #020202 !important;
+    --ytmusic-general-background-c: black !important;
+    --on-ytmusic-background: white !important;
 }
 
-[dark] button.ytmusic-navigation-button-renderer {
+[dark=false] * {
+    --ytmusic-brand-background-solid: #fdfdfd !important;
+    --ytmusic-general-background-c: white !important;
+    --on-ytmusic-background: black !important;
+}
+
+
+#content[role=main], ytmusic-popup-container {
+    background-color: var(--ytmusic-general-background-c) !important;
+}
+
+#content *, ytmusic-popup-container * {
+    color: var(--on-ytmusic-background);
+}
+
+#account-name,
+#channel-title {
+    color: var(--on-ytmusic-background) !important;
+}
+
+
+* { 
+    --ytmusic-background: var(--ytmusic-general-background-c) !important;
+}
+
+
+html:not([dark=false]) button.ytmusic-navigation-button-renderer {
     background-color: #050505 !important;
 }
 
-[dark] ytmusic-popup-container * {
-    background-color: #000000 !important;
+[dark=false] button.ytmusic-navigation-button-renderer {
+    background-color: #fafafa !important;
+}
+
+
+html:not([dark=false]) ytmusic-popup-container * {
+    background-color: black !important;
+}
+
+[dark=false] ytmusic-popup-container * {
+    background-color: white !important;
 }

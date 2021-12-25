@@ -1,9 +1,13 @@
 
-[dark] :root {
-    --theme-accent-color: #fff;
+[dark=true] :root {
+    --theme-accent-color: white;
 }
 
-[dark] * {
+html[dark=false] :root {
+    --theme-accent-color: black;
+}
+
+* {
     --yt-spec-static-brand-red: var(--theme-accent-color) !important;
 
     --yt-spec-call-to-action: var(--theme-accent-color) !important;
