@@ -6,7 +6,7 @@
       "128": "assets/logo-128.png"
     },
 
-    "manifest_version": 2,
+    "manifest_version": 3,
 
     "content_scripts": [
       {
@@ -72,7 +72,7 @@
       }
     ],
 
-    "browser_action": {
+    "action": {
       "default_icon": "./assets/logo-128.png",
       "default_popup": "./pages/popup/index.html"
     },
@@ -81,7 +81,13 @@
 
     "permissions": [
       "tabs",
-      "storage",
-      "*://*.youtube.com/*"
+      "storage"
+    ],
+
+    "host_permissions": [
+      "*://consent.youtube.com/*",
+      "*://music.youtube.com/*",
+      "*://www.youtube.com/*",
+      "*://youtube.com/*"
     ]
 }
