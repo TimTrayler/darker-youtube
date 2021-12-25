@@ -6,12 +6,12 @@
 }
 
 [dark] #container.ytd-sentiment-bar-renderer,
-[dark] #return-youtube-dislike-bar-container {
+[dark] #ryd-bar-container {
     background-color: #FFFFFF !important;
 }
 
 [dark] #like-bar,
-[dark] #return-youtube-dislike-bar {
+[dark] #ryd-bar {
     background-color: var(--theme-accent-color) !important;
 }
 
