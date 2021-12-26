@@ -12,6 +12,7 @@ function updateSimilarColors(hex) {
     style.innerHTML = `
     :root{
         --accent-color: ${hex};
+        --accent-color-hue: ${asHSL["h"]}
         --accent-color-saturation: ${asHSL["s"]};
         --accent-color-lightness: ${asHSL["l"]};
     }`
@@ -27,7 +28,8 @@ function updateThemeColor(hex, callback) {
     }
 
     chrome.storage.sync.set({
-        accentColor: hex
+        accentColor: hex,
+        accentColorHSL: hexToHSL(hex)
     }, callback);
 }
 
