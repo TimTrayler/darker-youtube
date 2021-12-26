@@ -1,6 +1,6 @@
 
 try {
-    chrome.storage.sync.get(['accentColor'], r => {
+    chrome.storage.sync.get(['accentColor', 'accentColorHSL'], r => {
         // Validate Hex Color
         if(!/^#([A-F0-9]{6}|[A-F0-9]{3}|[A-F0-9]{8})$/i.test(r.accentColor)) return;
 
@@ -9,6 +9,9 @@ try {
         style.innerHTML = `
             :root {
                 --theme-accent-color: ${r.accentColor} !important;
+                --theme-accent-color-hue: ${r.accentColorHSL.h} !important;
+                --theme-accent-color-sat: ${r.accentColorHSL.s} !important;
+                --theme-accent-color-lig: ${r.accentColorHSL.l} !important;
             }
         `;
 
