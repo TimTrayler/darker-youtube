@@ -1,5 +1,5 @@
 
-html[dark=true] :not(.next-items-button) > tp-yt-iron-icon {
+[dark=true] :not(.next-items-button) > tp-yt-iron-icon {
     color: white !important;
 }
 
@@ -8,16 +8,26 @@ html[dark=true] :not(.next-items-button) > tp-yt-iron-icon {
 }
 
 
-/* FIXME: "Your channel" + "Paid membership" icons are filled */
-
-[dark=false] yt-icon svg > g > path:last-child,
-[dark=false] tp-yt-iron-icon svg > g > path:last-child {
-    fill: black !important;
+[dark=false] ytmusic-menu-popup-renderer yt-icon svg > g > path:last-child,
+[dark=false] .dropdown-trigger > tp-yt-iron-icon > path,
+#next-items-button path {
+    fill: black;
 }
 
-[dark=true] yt-icon svg > g > path:last-child,
-[dark=true] tp-yt-iron-icon svg > g > path:last-child:not {
-    fill: white !important;
+[dark=true] ytmusic-menu-popup-renderer yt-icon svg > g > path:last-child,
+[dark=true] .dropdown-trigger > tp-yt-iron-icon path,
+.ytmusic-item-thumbnail-overlay-renderer .ytmusic-play-button-renderer {
+    fill: white;
+}
+
+
+.ytmusic-item-thumbnail-overlay-renderer tp-yt-paper-spinner-lite .circle {
+    border-color: white !important;
+}
+
+
+[dark=false] .left-controls-buttons path {
+    fill: black;
 }
 
 

@@ -45,12 +45,14 @@
         "css": [
           "./styles/music/titlebar.css",
           "./styles/music/backgrounds.css",
+          "./styles/music/buttons.css",
           "./styles/music/theme.css",
           "./styles/music/progressbar.css",
           "./styles/music/badges.css",
           "./styles/music/searchbox.css",
           "./styles/music/tabs.css",
           "./styles/music/thumbnails.css",
+          "./styles/music/player.css",
           "./styles/music/songItem.css",
           "./styles/music/icons.css",
           "./styles/music/settings.css"
