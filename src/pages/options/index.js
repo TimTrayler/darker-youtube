@@ -2,7 +2,7 @@
 function updateSimilarColors(hex) {
     document.querySelector(".is-compatible").hidden = true;
 
-    let asHSL = hexToHSL(hex)
+    let asHSL = hexToLightness(hex)
     let style = document.createElement('style')
 
     if(asHSL["l"] > .7 && asHSL["s"] < .5) {
