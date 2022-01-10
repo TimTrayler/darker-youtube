@@ -20,12 +20,19 @@ h3 {
 }
 
 button {
-    background-color: var(--accent-color);
     outline: none;
     border: none;
     border-radius: 10px;
     padding: 8px 20px;
     font-size: 1.1rem;
+}
+
+.btn-primary {
+    background-color: var(--accent-color, red);
+}
+
+.btn-secondary {
+    background-color: var(--accent-color, rgb(146, 26, 26));
 }
 
 button:hover {
@@ -85,4 +92,10 @@ button:active {
 
 .is-compatible * {
     color: red;
+}
+
+.hint-text {
+    color: gray;
+    font-size: 0.5rem;
+    user-select: none;
 }

@@ -1,19 +1,25 @@
 
 try {
-    chrome.storage.sync.get(['accentColor', 'accentColorHSL'], r => {
+    chrome.storage.sync.get(['accentColor', 'useMaterialYou'], r => {
+
         // Validate Hex Color
         if(!/^#([A-F0-9]{6}|[A-F0-9]{3}|[A-F0-9]{8})$/i.test(r.accentColor)) return;
 
         const style = document.createElement("style");
 
-        style.innerHTML = `
-            :root {
-                --theme-accent-color: ${r.accentColor} !important;
-                --theme-accent-color-hue: ${r.accentColorHSL.h} !important;
-                --theme-accent-color-sat: ${r.accentColorHSL.s} !important;
-                --theme-accent-color-lig: ${r.accentColorHSL.l} !important;
-            }
-        `;
+        if(r.useMaterialYou) {
+            style.innerHTML = `
+                :root {
+                    --theme-accent-color: var(--myw-light-primary, ${r.accentColor}) !important;
+                }
+            `
+        }else {
+            style.innerHTML = `
+                :root {
+                    --theme-accent-color: ${r.accentColor} !important;
+                }
+            `;
+        }
 
         document.head.append(style);
     })

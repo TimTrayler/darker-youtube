@@ -22,19 +22,24 @@ function updateSimilarColors(hex) {
 
 function updateThemeColor(hex, callback) {
     try {
-    updateSimilarColors()
+        updateSimilarColors()
     } catch(err) {
         console.error(err)
     }
 
     chrome.storage.sync.set({
         accentColor: hex,
-        accentColorHSL: hexToHSL(hex)
+        useMaterialYou: document.querySelector("#use-my").checked
     }, callback);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    chrome.storage.sync.get(['accentColor'], r => {
+    chrome.storage.sync.get(['accentColor', 'useMaterialYou'], r => {
+
+        if(r.useMaterialYou) {
+            document.querySelector("#use-my").checked = true
+        }
+
         // Validate Hex Color
         if(!/^#([A-F0-9]{6}|[A-F0-9]{3}|[A-F0-9]{8})$/i.test(r.accentColor)) return;
 
