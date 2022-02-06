@@ -5,6 +5,9 @@ function updateSimilarColors(hex) {
     let asHSL = hexToLightness(hex)
     let style = document.createElement('style')
 
+    console.log(asHSL)
+    console.log(hex)
+
     if(asHSL["l"] > .7 && asHSL["s"] < .5) {
         document.querySelector(".is-compatible").hidden = false;
     }
@@ -12,9 +15,9 @@ function updateSimilarColors(hex) {
     style.innerHTML = `
     :root{
         --accent-color: ${hex};
-        --accent-color-hue: ${asHSL["h"]}
-        --accent-color-saturation: ${asHSL["s"]};
-        --accent-color-lightness: ${asHSL["l"]};
+        --accent-color-hue: ${(asHSL["h"]/360)*100}%;
+        --accent-color-saturation: ${asHSL["s"]*100}%;
+        --accent-color-lightness: ${asHSL["l"]*100}%;
     }`
 
     document.head.append(style)
@@ -22,7 +25,7 @@ function updateSimilarColors(hex) {
 
 function updateThemeColor(hex, callback) {
     try {
-        updateSimilarColors()
+        updateSimilarColors(hex)
     } catch(err) {
         console.error(err)
     }

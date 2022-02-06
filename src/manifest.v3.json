@@ -12,6 +12,7 @@
       {
         "matches": ["*://*.youtube.com/*"],
         "css": [
+          "./styles/youtube/animations.css",
           "./styles/youtube/backgrounds.css",
           "./styles/youtube/buttons.css",
           "./styles/youtube/chips.css",

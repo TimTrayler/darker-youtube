@@ -53,9 +53,6 @@ button:active {
     padding: 30px;
 
     border: 2.5px solid white;
-
-    --accent-color-saturation: 50%;
-    --accent-color-lightness: 50%;
 }
 
 .sC-1 {
