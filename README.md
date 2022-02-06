@@ -1,7 +1,8 @@
 # Darker YouTube Darkmode
 
 # <a target="_blank" rel="norefferer" href="https://addons.mozilla.org/de/firefox/addon/darker-youtube/"><img alt="Get it on Mozilla" width="15%" src="https://user-images.githubusercontent.com/67274738/123635245-bfe36700-d81b-11eb-8119-cb28a56c6ae8.png"></a>
-# [Download CRX](https://github.com/TimTrayler/darker-youtube/releases/latest/download/darker-youtube.crx)
+# [Download CRX (Manifest v3)](https://github.com/TimTrayler/darker-youtube/releases/latest/download/darker-youtube.v3.crx)
+## [Download CRX (Manifest v2)](https://github.com/TimTrayler/darker-youtube/releases/latest/download/darker-youtube.v2.crx)
 
 
 # CRX Installation
