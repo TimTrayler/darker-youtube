@@ -1,4 +1,4 @@
 
-/*if(window.matchMedia("(prefers-color-scheme: light)").matches ||!0) {
+/*if(window.matchMedia("(prefers-color-scheme: light)").matches) {
     document.querySelector("html").setAttribute("dark", false)
 }*/

@@ -8,13 +8,13 @@ try {
         const style = document.createElement("style");
 
         if(r.useMaterialYou) {
-            style.innerHTML = `
+            style.textContent = `
                 :root {
                     --theme-accent-color: var(--myw-light-primary, ${r.accentColor}) !important;
                 }
             `
         }else {
-            style.innerHTML = `
+            style.textContent = `
                 :root {
                     --theme-accent-color: ${r.accentColor} !important;
                 }
