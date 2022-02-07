@@ -8,3 +8,24 @@
     color: white !important;
 }
 */
+
+[dark=false] yt-button-renderer.ytmusic-immersive-header-renderer yt-formatted-string,
+[dark=false] yt-button-renderer.ytmusic-immersive-header-renderer path {
+    color: white !important;
+    fill: white !important;
+}
+
+[dark=true] yt-button-renderer.ytmusic-immersive-header-renderer yt-formatted-string,
+[dark=true] yt-button-renderer.ytmusic-immersive-header-renderer path {
+    color: black !important;
+    fill: black !important;
+}
+
+[dark=false] yt-button-renderer {
+    color: white !important;
+    background-color: black !important;
+}
+
+[dark=false] tp-yt-paper-button {
+    border-color: black !important;
+}

@@ -12,7 +12,7 @@ function updateSimilarColors(hex) {
         document.querySelector(".is-compatible").hidden = false;
     }
 
-    style.innerHTML = `
+    style.textContent = `
     :root{
         --accent-color: ${hex};
         --accent-color-hue: ${(asHSL["h"]/360)*100}%;
