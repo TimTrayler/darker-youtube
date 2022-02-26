@@ -1,0 +1,18 @@
+
+ytmusic-dialog > * > *,
+ytmusic-dialog > *,
+ytmusic-dialog {
+    border-radius: var(--player-border-radius) !important;
+}
+
+ytmusic-dialog {
+    border: 1px solid;
+}
+
+[dark=false] ytmusic-dialog {
+    border-color: black !important;
+}
+
+[dark=true] ytmusic-dialog {
+    border-color: white !important;
+}

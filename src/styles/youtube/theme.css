@@ -3,7 +3,7 @@
     --theme-accent-color: white;
 }
 
-html[dark=false] :root {
+[dark=false] :root {
     --theme-accent-color: black;
 }
 
@@ -11,4 +11,6 @@ html[dark=false] :root {
     --yt-spec-static-brand-red: var(--theme-accent-color) !important;
 
     --yt-spec-call-to-action: var(--theme-accent-color) !important;
+
+    --player-border-radius: 17px;
 }

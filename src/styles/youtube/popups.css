@@ -6,3 +6,21 @@
 html[dark=false] .ytp-settings-menu, html[dark=false] .ytp-popup {
     background-color: white !important;
 }
+
+tp-yt-iron-dropdown > #contentWrapper > *,
+tp-yt-iron-dropdown > #contentWrapper,
+tp-yt-iron-dropdown {
+    border-radius: var(--player-border-radius) !important;
+}
+
+tp-yt-iron-dropdown {
+    border: 1px solid;
+}
+
+[dark=false] tp-yt-iron-dropdown {
+    border-color: black !important;
+}
+
+[dark=true] tp-yt-iron-dropdown {
+    border-color: white !important;
+}

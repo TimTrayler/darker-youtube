@@ -2,3 +2,8 @@
 [dark=false] .left-controls yt-formatted-string {
     color: black !important;
 }
+
+.song-media-controls,
+#movie_player {
+    border-radius: var(--player-border-radius) !important;
+}

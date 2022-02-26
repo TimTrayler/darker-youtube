@@ -1,14 +1,28 @@
 
-html[dark=true] * {
+[dark=true] {
     --ytmusic-brand-background-solid: #020202 !important;
     --ytmusic-general-background-c: black !important;
     --on-ytmusic-background: white !important;
 }
 
-[dark=false] * {
+[dark=false] {
     --ytmusic-brand-background-solid: #fdfdfd !important;
     --ytmusic-general-background-c: white !important;
     --on-ytmusic-background: black !important;
+}
+
+[dark=false] tp-yt-paper-button:not(.ytmusic-subscribe-button-renderer) yt-formatted-string {
+    color: white !important;
+}
+
+[dark=false] ytmusic-app :not(.tab-title):not(tp-yt-paper-button yt-formatted-string):not(ytmusic-player *):not(ytmusic-av-toggle *),
+[dark=false] ytmusic-popup-container * {
+    color: black !important;
+}
+
+[dark=false] ytmusic-player,
+[dark=false] #error-wrapper.ytmusic-player {
+    background-color: white !important;
 }
 
 

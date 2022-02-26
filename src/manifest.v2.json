@@ -1,6 +1,6 @@
 {
     "name": "Darker YouTube",
-    "version": "3.5.1",
+    "version": "3.6",
     "description": "YouTube Darkmode is now even darker",
     "icons": {
       "128": "assets/logo-128.png"
@@ -35,7 +35,6 @@
           "./styles/youtube/yt-logo.css"
         ],
         "js": [
-          "./scripts/livechatInjection.js",
           "./scripts/accentColor.js"
         ],
         "run_at": "document_end"
@@ -43,6 +42,7 @@
       {
         "matches": ["*://music.youtube.com/*"],
         "css": [
+          "./styles/music/av-switch.css",
           "./styles/music/titlebar.css",
           "./styles/music/backgrounds.css",
           "./styles/music/buttons.css",
@@ -53,6 +53,7 @@
           "./styles/music/tabs.css",
           "./styles/music/thumbnails.css",
           "./styles/music/player.css",
+          "./styles/music/popups.css",
           "./styles/music/songItem.css",
           "./styles/music/icons.css",
           "./styles/music/settings.css"

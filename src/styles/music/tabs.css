@@ -19,7 +19,7 @@ html[dark=true] #tabs .tab.ytmusic-tabs {
 }
 
 
-html[dark=true] .tab-header {
+[dark=true] .tab-header {
     color: white;
 }
 
@@ -28,7 +28,13 @@ html[dark=true] .tab-header {
 }
 
 
-.tab-header:hover, html[dark=true] .tab-header.iron-selected {
+[dark=false] ytmusic-item-section-tab-renderer.iron-selected .tab.ytmusic-item-section-tab-renderer,
+[dark=false] .tab.selected.ytmusic-item-section-tab-renderer {
+    border-bottom-color: black !important;
+}
+
+
+.tab-header:hover, .tab-header.iron-selected {
     color: var(--theme-accent-color) !important;
 }
 

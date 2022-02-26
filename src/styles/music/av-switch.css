@@ -1,0 +1,42 @@
+
+[dark="true"] {
+    --ytmusic-av-toggle-background: #101010 !important;
+}
+
+[dark="false"] {
+    --ytmusic-av-toggle-background: #efefef !important;
+}
+
+
+[dark="true"] .song-button.ytmusic-av-toggle,
+[dark="true"] .video-button.ytmusic-av-toggle {
+    background-color: #0f0f0f !important;
+}
+
+[dark="false"] .song-button.ytmusic-av-toggle,
+[dark="false"] .video-button.ytmusic-av-toggle {
+    background-color: #f0f0f0 !important;
+}
+
+
+[dark="true"] ytmusic-av-toggle[playback-mode=ATV_PREFERRED] .song-button,
+[dark="true"] ytmusic-av-toggle[playback-mode=OMV_PREFERRED] .video-button {
+    background-color: white !important;
+    color: black !important;
+}
+
+[dark="false"] ytmusic-av-toggle[playback-mode=ATV_PREFERRED] .song-button,
+[dark="false"] ytmusic-av-toggle[playback-mode=OMV_PREFERRED] .video-button {
+    background-color: black !important;
+    color: white !important;
+}
+
+[dark="false"] ytmusic-av-toggle[playback-mode=OMV_PREFERRED] .song-button,
+[dark="false"] ytmusic-av-toggle[playback-mode=ATV_PREFERRED] .video-button {
+    color: black !important;
+}
+
+
+.av-toggle.style-scope.ytmusic-av-toggle {
+    background-color: var(--ytmusic-av-toggle-background) !important;
+}
